@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+     <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--css link-->
+   <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+      <section id="start" >
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+
+      <!-- Brand / Logo -->
+      <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
+        <img src="https://cdn.pixabay.com/photo/2016/10/08/18/35/restaurant-1724294_1280.png" 
+             alt="Logo" width="45" height="30" class="me-2">
+        Treat<span class="text-warning">House</span>
+      </a>
+
+      <!-- Toggle button for mobile view -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Menu Links -->
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="whoweare.html">Who We Are</a></li>
+          <li class="nav-item"><a class="nav-link" href="reservw.html">Reservation</a></li>
+          <li class="nav-item"><a class="nav-link" href="order.html">Order Online</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#Contact">Contact</a></li>
+
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="index.html#menu" role="button" data-bs-toggle="dropdown">Menu</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#veg">Veg</a></li>
+              <li><a class="dropdown-item" href="#nonveg">Non-Veg</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#mixed">Mixed</a></li>
+            </ul>
+             <li class="nav-item"><a class="nav-link" href="diwali.html">Diwali Special <span class="badge text-bg-danger">New</span></a></li>
+          </li>
+        </ul>
+
+        <!-- Search Bar (Right Side) -->
+        <form class="d-flex ms-lg-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-warning" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  </section>
+  <!--nav ends-->
+
+<!--menu-->
+<section class="menu py-5" id="mixed" style="justify-content: center;">
+   <h2 class="text-center mt-5 mb-5"> Top Menus from Treat<span class="text-warning">House</span> </h2>
+   <hr>
+
+  <div class="veg" id="veg">
+    <h2 class="text-center mb-5"> Veg Food Items</h2>
+<div class="row justify-content-center g-4">
+<div class="card-md-3" style="width: 18rem;">
+  <div class="card bg-white shadow-lg border-2 text-dark h-100">
+  <img src="https://cdn.pixabay.com/photo/2022/08/27/14/09/tikka-platter-7414550_1280.jpg" class="card-img-top" >
+  <div class="card-body">
+    <h5 class="card-title">Paneer Tikka</h5>
+    <p class="card-text">SSoft paneer cubes marinated in spices and grilled</p>
+     <p class="fw-bold text-success mb-2">Price: ₹100 </p>
+    <a href="#order" class="btn btn-primary">Order</a>
+  </div>
+  </div>
+</div>
+<div class="card-md-3" style="width: 18rem;">
+  <div class="card bg-white shadow-lg border-2 text-dark  h-100">
+  <img src="https://cdn.pixabay.com/photo/2017/03/14/08/04/pasta-2142229_1280.jpg" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">Veg Pasta Alfredo</h5>
+    <p class="card-text">Creamy pasta loaded with fresh vegetables</p>
+     <p class="fw-bold text-success mb-2">Price: ₹80 </p>
+    <a href="#order" class="btn btn-primary">Order</a>
+  </div>
+  </div>
+</div>
+<div class="card-md-3" style="width: 18rem;">
+   <div class="card bg-white shadow-lg border-2 text-dark  h-100">
+  <img src="https://cdn.pixabay.com/photo/2022/06/27/05/37/biryani-7286737_1280.jpg" class="card-img-top" >
+  <div class="card-body">
+    <h5 class="card-title">Veg Biryani</h5>
+    <p class="card-text">Mixed seasonal vegetables cooked with aromatic rice</p>
+     <p class="fw-bold text-success mb-2">Price: ₹160</p>
+    <a href="#order" class="btn btn-primary">Order</a>
+  </div>
+</div>
+</div>
+<div class="card-md-3" style="width: 18rem;">
+   <div class="card bg-white shadow-lg border-2 text-dark  h-100">
+  <img src="https://cdn.pixabay.com/photo/2022/12/28/17/44/bowl-7683485_1280.jpg" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">Chole Bhature</h5>
+    <p class="card-text">Fluffy deep-fried bread served with spicy and flavorful chickpea curry, a North Indian classic.</p>
+     <p class="fw-bold text-success mb-2">Price: ₹150 </p>
+    <a href="#order" class="btn btn-primary">Order</a>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+<hr >
+<div class="nonveg" id="nonveg">
+  <h2 class="text-center mt-5 mb-5"> Deserts </h2>
+  <div class="row justify-content-center g-4">
+  <div class="card-md-3" style="width: 18rem;">
+   
+       <div class="card bg-white shadow-lg border-2 text-dark  h-100">
+  <img src="https://media.istockphoto.com/id/515853026/photo/traditional-rasmalai-or-ras-malai-indian-dessert-bengali-sweet.jpg?s=1024x1024&w=is&k=20&c=gSOKfjR5dKCrePmLwfhFLDkCpYIL6QjlzUM7jo113ZA=" class="card-img-top" >
+  <div class="card-body">
+    <h5 class="card-title">Rasmalai</h5>
+    <p class="card-text">Spongy cheese patties soaked in sweet, saffron-flavored milk.</p>
+     <p class="fw-bold text-success mb-2">Price: ₹80 </p>
+    <a href="#order" class="btn btn-primary">Order</a>
+  </div>
+  </div>
+</div>
+<div class="card-md-3" style="width: 18rem;">
+   <div class="card bg-white shadow-lg border-2 text-dark  h-100">
+  <img src="https://media.istockphoto.com/id/1370520449/photo/slice-of-chocolate-cake-with-glaze.jpg?s=1024x1024&w=is&k=20&c=bJfEJGn76XIw13A1fKRYKywbVvQ8th5Ece8TwuU6m18=" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">Chocolate Lava Cake
+</h5>
+    <p class="card-text">A warm, gooey chocolate cake with a molten center served with vanilla ice cream.</p>
+     <p class="fw-bold text-success mb-2">Price: ₹150 (3 pieces)</p>
+    <a href="#order" class="btn btn-primary">Order</a>
+  </div>
+  </div>
+</div>
+<div class="card-md-3" style="width: 18rem;">
+   <div class="card bg-white shadow-lg border-2 text-dark  h-100">
+  <img src="https://media.istockphoto.com/id/1424509973/photo/gulab-jamun-an-indian-dessert.jpg?s=1024x1024&w=is&k=20&c=7N41F9E1WoDwa1RdoJKzblqtC9Ah6pcPMNuvirNH30g=" class="card-img-top" >
+  
+  <div class="card-body">
+    <h5 class="card-title">Gulab Jamun
+</h5>
+    <p class="card-text">Soft, syrup-soaked dumplings made from khoya, a timeless Indian sweet.</p>
+     <p class="fw-bold text-success mb-2">Price: ₹80 per Kg</p>
+
+    <a href="#order" class="btn btn-primary">Order</a>
+  </div>
+  </div>
+</div>
+<div class="card-md-3" style="width: 18rem;">
+   <div class="card bg-white shadow-lg border-2 text-dark h-100">
+  <img src="https://cdn.pixabay.com/photo/2014/12/22/12/33/sweets-577230_1280.jpg" class="card-img-top" >
+  <div class="card-body">
+    <h5 class="card-title">Rasgulla
+</h5>
+    <p class="card-text">Soft, spongy balls made from fresh chhena (Indian cottage cheese), soaked in light sugar syrup.</p>
+    <p class="fw-bold text-success mb-2">Price: ₹80 (3 pieces)</p>
+    <a href="#order" class="btn btn-primary">Order</a>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="nonveg" id="nonveg">
+  <h2 class="text-center mt-5 mb-5"> Non-Veg Food Items </h2>
+  <div class="row justify-content-center g-4">
+  <div class="card-md-3" style="width: 18rem;">
+   
+       <div class="card bg-white shadow-lg border-2 text-dark  h-100">
+  <img src="https://cdn.pixabay.com/photo/2023/10/19/11/18/biryani-8326234_1280.jpg" class="card-img-top" >
+  <div class="card-body">
+    <h5 class="card-title">Chicken Malai Biryani</h5>
+    <p class="card-text">Creamy, mildly spiced chicken biryani with soft rice</p>
+     <p class="fw-bold text-success mb-2">Price: ₹80 (3 pieces)</p>
+    
+
+    <a href="#order" class="btn btn-primary">Order</a>
+  </div>
+  </div>
+</div>
+<div class="card-md-3" style="width: 18rem;">
+   <div class="card bg-white shadow-lg border-2 text-dark  h-100">
+  <img src="https://cdn.pixabay.com/photo/2018/09/19/12/47/fish-curry-3688482_1280.jpg" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">Fish Curry
+</h5>
+    <p class="card-text">Fresh fish cooked in aromatic spices</p>
+     <p class="fw-bold text-success mb-2">Price: 300 (3 pieces)</p>
+    <a href="#order" class="btn btn-primary">Order</a>
+  </div>
+  </div>
+</div>
+<div class="card-md-3" style="width: 18rem;">
+   <div class="card bg-white shadow-lg border-2 text-dark  h-100">
+  <img src="https://cdn.pixabay.com/photo/2019/12/09/17/30/bbq-4683963_1280.jpg" class="card-img-top" >
+  
+  <div class="card-body">
+    <h5 class="card-title">Tandoori Chicken
+</h5>
+    <p class="card-text">Chicken marinated in yogurt & spices, roasted in tandoor</p>
+     <p class="fw-bold text-success mb-2">Price: ₹500 (3 pieces)</p>
+    <a href="#order" class="btn btn-primary">Order</a>
+  </div>
+  </div>
+</div>
+<div class="card-md-3" style="width: 18rem;">
+   <div class="card bg-white shadow-lg border-2 text-dark h-100">
+  <img src="https://cdn.pixabay.com/photo/2019/04/17/09/15/crab-4133700_1280.jpg" class="card-img-top" >
+  <div class="card-body">
+    <h5 class="card-title">Crab Cakes
+</h5>
+    <p class="card-text">Crispy crab patties served with sauce</p>
+     <p class="fw-bold text-success mb-2">Price: ₹200 (3 pieces)</p>
+    <a href="#order" class="btn btn-primary">Order</a>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="text-center justify-content-center d-flex align-items-center mt-3 ">
+<a href="#" class="btn btn-warning align-items-center  justify-content-center">See More Menu</a>
+</div>
+</section>
+<hr>
+
+
+
+<!--order form-->
+<div class=" card text-white bg-none mb-3 shadow-lg border-1"  style="width: 35rem;height: auto;margin-top: 7%;margin-left: 35%; background-color: danger"  id="order">
+  <h2 class="text-center mb-5  text-warning">Order Form</h2>
+  <h5 class="text-center mb-5  text-dark">Enter your details and let us deliver happiness to your doorstep.</h5>
+  
+
+  <div class="card-body"  >
+<section id="Contact">
+<form class="row g-3">
+    <div class="input-group mb-3">
+  <span class="input-group-text text-dARK" id="inputGroup-sizing-default">Full Name</span>
+  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+</div>
+
+   
+  <div class="col-md-6">
+    <label for="inputphnumber" class="form-label text-dark">Ph Number</label>
+    <input type="text" class="form-control" id="inputphnumber">
+  </div>
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label  text-dark">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  
+  <div class="col-12">
+    <label for="inputAddress" class="form-label  text-dark">Enter your Detail Address here</label>
+    <input type="text" class="form-control" id="inputAddress">
+
+    <div class="col-md-6">
+            <label class="form-label">Date</label>
+            <input type="date" class="form-control">
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Time</label>
+            <input type="time" class="form-control">
+          </div>
+
+  </div>
+  <div>
+  <select class="form-select" aria-label="Default select example">
+  <option selected>Choose Payment Mode</option>
+  <option value="1">Cash on Delivery</option>
+  <option value="2">UPI / QR Payment</option>
+  <option value="3">Debit / Credit Card</option>
+</select>
+</div>
+  <div class="col-12">
+   <button type="button" class="btn btn-warning w-100">Place My Order</button>
+  </div>
+</form>
+</section>
+ </div>
+</div>
+
+
+
+
+  <!--footer section-->
+<footer class="bg-dark text-white text-center py-3">
+  <a href="#start " class="text-warning fw-bold text-decoration-none mb-6" >Go To The Top</a>
+  <p class="mb-0 py-5">&copy; @2025 TreatHouse| All Rights Reserved</p>
+  <div class="footercontact">
+</body>
+</html>
