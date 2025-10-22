@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Project</title>
+<link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body {
+      background: radial-gradient(circle at center, #ffdd99 0%, #ffbb66 100%);
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      color: #3b1d0c;
+    
+    }
+
+    .diya {
+      width: 100px;
+      
+    }
+
+ 
+
+    .glow {
+      text-shadow: 0 0 10px #ff9900, 0 0 20px #ff6600, 0 0 40px #ff3300;
+    }
+
+    .btn-custom {
+      background-color: #ff6600;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      padding: 10px 25px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn-custom:hover {
+      background-color: #ff3300;
+      
+    }
+
+    footer {
+      margin-top: 80px;
+      background-color: #3b1d0c;
+      color: #fff;
+      padding: 15px 0;
+    }
+  </style>
+</head>
+<body>
+<section id="start" >
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+
+      <!-- Brand / Logo -->
+      <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
+        <img src="https://cdn.pixabay.com/photo/2016/10/08/18/35/restaurant-1724294_1280.png" 
+             alt="Logo" width="45" height="30" class="me-2">
+        Treat<span class="text-warning">House</span>
+      </a>
+
+      <!-- Toggle button for mobile view -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Menu Links -->
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="whoweare.html">Who We Are</a></li>
+          <li class="nav-item"><a class="nav-link" href="reservw.html">Reservation</a></li>
+          <li class="nav-item"><a class="nav-link" href="order.html">Order Online</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+           
+
+      
+
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#menu" role="button" data-bs-toggle="dropdown">Menu</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#veg">Veg</a></li>
+              <li><a class="dropdown-item" href="#nonveg">Non-Veg</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#mixed">Mixed</a></li>
+            </ul>
+            <li class="nav-item"><a class="nav-link" href="#diwali.html">Diwali Special <span class="badge text-bg-danger">New</span></a></li>
+          </li>
+        </ul>
+        
+
+        <!-- Search Bar (Right Side) -->
+        <form class="d-flex ms-lg-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-warning" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  </section>
+  <!-- Navbar End -->
+<div class="container py-5">
+    
+
+    <h1 class="fw-bold glow"> Happy Diwali! </h1>
+    <p class="lead mt-4">
+      Light Up Your Diwali with TreatHouse Specials! 
+    </p>
+
+    <p class="fw-bold fs-5 text-dark mt-3">
+      From the Treat<span class="text-danger">House</span> Family —  
+      Bringing light and flavor to every celebration! 
+    </p>
+    <!-- Offer Section -->
+<section class="container mt-5">
+  <div class="bg-white text-dark p-4 rounded shadow-lg">
+    <h2 class="text-center text-warning fw-bold mb-4"> Diwali Special Offers </h2>
+
+   
+
+    <ul class="list-group list-group-flush text-center mt-3">
+      <li class="list-group-item"> <strong>20% OFF</strong> on all Family Combos</li>
+      <li class="list-group-item"> <strong>Free Dessert</strong> with every order above ₹499</li>
+      <li class="list-group-item"> <strong>Complimentary Drinks</strong> for dine-in guests</li>
+      <li class="list-group-item"> <strong>1 Free Dish</strong> on group bookings of 5 or more</li>
+    </ul>
+
+    <div class="text-center mt-4">
+      <a href="order.html" class="btn btn-warning text-dark fw-bold px-4 py-2 rounded-pill">
+        Order Now & Celebrate!
+      </a>
+    </div>
+  </div>
+</section>
+
+
+    <a href="index.html" class="btn btn-custom mt-4">Back to Home</a>
+  </div>
+
+
+  <!--footer section-->
+<footer class="bg-dark text-white text-center py-3">
+  <a href="#start " class="text-warning fw-bold text-decoration-none mb-6" >Go To The Top</a>
+  <p class="mb-0 py-5">&copy; @2025 TreatHouse| All Rights Reserved</p>
+  <div class="footercontact">
+    
+  </div>
+</footer>
+
+
+
+
+
+</body>
+</html>
