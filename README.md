@@ -27,7 +27,7 @@ A modern, responsive restaurant website built using **HTML, CSS, and Bootstrap**
 ---
 
 ## 🌐 Live Demo
-🔗 [Click Here to View Project](https://prajkta-treathouse.netlify.app)
+🔗 [Click Here to View Project](https://my-treathouse.netlify.app/)
 
 
 ---
